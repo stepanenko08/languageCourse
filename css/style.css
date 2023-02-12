@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+/* button {
+    box-shadow: 15px 20px 28px 9px rgba(0,0,0,0.1);
+} */
+.scale:hover {
+    transform: scale(110%);
+    transition: .3s;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1340px;
+}
+header {
+    position: relative;
+    top: 57px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 101px;
+}
+.logo__name {
+    font-weight: 400;
+    line-height: 54px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.logo__name>span {
+    color: #939393;
+}
+.header__nav {
+    margin-top: 14px;
+    gap: 40px;
+    display: flex;
+}
+.header__nav>a {
+    color: #263238!important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.header__nav>a:hover {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #263238;
+    border-radius: 5px;
+    transition: .2s;
+}
+.header__button {
+    background: #fff;
+    padding: 17px 57px;
+    color: #263238;
+    border-radius: 5px;
+    border: 2px solid #263238;
+}
+.header__button:hover {
+    background: #263238;
+    color: #fff;
+    cursor: pointer;
+}
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.header__main__poster>img {
+    margin-top: -80px;
+}
+.header__text__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.header__text__title>h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    width: 386px;
+}
+.header__text__title>img {
+    height: 85px;
+    width: 85px;
+    margin-top: 92px;
+}
+.header__text__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    width: 520px;
+    margin-bottom: 61px;
+}
+.header__text__button {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    padding: 18px 110px;
+    background: #263238;
+    border-radius: 15px;
+    width: 438px;
+    cursor: pointer;
+}
+.header__text__button:hover {
+    background: #fff;
+    color: #263238;
+    border: #263238 2px solid;
+}
+.skills {
+    margin-bottom: 150px;
+}
+.skills__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    margin-bottom: 66px;
+}
+.skills__boxes, .skills__boxes__right__top {
+    display: flex;
+}
+.skills__box {
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+}
+.skills__boxes__left>.skills__box {
+    height: 820px;
+    width: 435px;
+}
+.skills__boxes__right__top>.skills__box {
+    height: 480px;
+    width: 430px;
+    margin-left: 18px;
+}
+.skills__boxes__right__bottom>.skills__box {
+    height: 320px;
+    margin-left: 18px;
+    margin-top: 20px;
+}
+.skills__box__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;    
+    color: #263238;
+    margin-bottom: 5px;
+}
+.skills__box__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 36px;
+}
+.skills__box__button {
+    padding: 16px 54px;
+    width: 230px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    bottom: 44px;
+}
+.skills__box__img-laptop {
+    height: 165px;
+    width: 165px;
+}
+.skills__box__img-laptop {
+    margin: 0 auto;
+    display: flex;
+}
+.skills__box__title-lh50 {
+    line-height: 50px!important;
+}
+.floatRight {
+    float: right;
+}
+.img__micro {
+    width: 350px;
+    height: 220px;
+}
+.skills__box__button-micro {
+    bottom: 20px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.about__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+}
+.about__main__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    width: 635px;
+    height: 240px;
+}
+.about__numbers {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.about__numbers__block>h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #2A3246;
+}
+.about__numbers__block>p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+.pricing {
+    margin-bottom: 150px;
+}
+.pricing__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing__blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.pricng__block {
+    width: 400px;
+}
+.pricing__block__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #263238;
+    margin-bottom: 19px;
+}
+.pricing__block__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    width: 420px;
+    margin-bottom: 25px;
+}
+.pricing__block__button {
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 30px;
+    line-height: 45px;
+    color: #263238;
+    cursor: pointer;
+    border: none;
+}
+.pricing__block__button>span {
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269;
+}
+.img__lesson {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.button__lesson {
+    margin-top: 30px;
+}
+.webinar__title {
+    margin-top: -8px;
+}
+.button__webinar {
+    margin-top: 37px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    margin-bottom: 37px;
+}
+.contact__main-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+    width: 776px;
+    margin-bottom: 50px;
+}
+.contact__form {
+    display: flex;
+    align-items: center;
+}
+.contact__input {
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    width: 450px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 33px;
+    padding-top: 26px;
+    padding-bottom: 30px;
+    padding-right: 33px;
+}
+.contact__input::placeholder {
+    color: #8F95A5;
+}
+.contact__button {
+    width: auto;
+    padding: 25px 80px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;margin-left: 12px;
+}
+.contact__button:hover {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
