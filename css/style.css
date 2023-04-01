@@ -14,9 +14,13 @@ img{
 /* button {
     box-shadow: 15px 20px 28px 9px rgba(0,0,0,0.1);
 } */
+
+body {
+    transition: .3s;
+}
+
 .scale:hover {
     transform: scale(110%);
-    transition: .3s;
 }
 
 .wrapper {
@@ -336,4 +340,8 @@ header {
     margin-left: 20px;
     display: flex;
     align-items: center;
+}
+
+.header__nav__link {
+    
 }
