@@ -19,7 +19,7 @@ body {
     transition: .3s;
 }
 
-.scale:hover {
+.scale {
     transform: scale(110%);
 }
 
